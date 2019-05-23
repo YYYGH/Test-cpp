@@ -1,0 +1,10 @@
+kind: pipeline
+name: default
+
+steps:
+- name: test-cpp
+  image: gcc
+  commands:
+  # - ./configure
+  - make
+  # - make test
